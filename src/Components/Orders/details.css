@@ -1,0 +1,102 @@
+.order {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f1f5a8;
+  width: 90vw;
+  margin: 50px;
+  border-radius: 20px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.myorder {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(241 58 15);
+  margin-top: 25px;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 10px;
+  color: seagreen;
+}
+
+
+@media screen and (max-width: 1300px) {
+  .order {
+    width: 85vw;
+    margin: 40px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .order {
+    width: 80vw;
+    margin: 30px;
+    margin-left: 90px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .order {
+    width: 75vw;
+    margin: 20px;
+    margin-left: 90px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .order {
+    width: 85vw;
+    margin: 15px;
+    margin-left: 50px;
+  }
+
+  .myorder {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .order {
+    width: 75vw;
+    margin: 50px;
+  }
+
+  .myorder {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .left {
+    width: 80vw;
+    margin-left: 20px;
+  }
+
+  .order {
+    width: 90vw;
+    margin: 10px;
+  }
+
+  .myorder {
+    font-size: 15px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+}

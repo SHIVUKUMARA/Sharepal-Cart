@@ -1,0 +1,39 @@
+.dashboard-container{
+  height: 100vh;
+}
+
+.welcome-message {
+  margin-bottom: 10px;
+  font-size: 50px;
+  color: #333;
+  text-align: center;
+}
+
+.welcome-message h1 {
+  color: green;
+  opacity: 0.7;
+}
+
+.welcome-message h2 {
+  color: skyblue;
+}
+
+
+@media screen and (max-width: 600px) {
+  .welcome-message {
+    font-size: 40px;
+    margin-top: 140px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .welcome-message {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .welcome-message {
+    font-size: 30px;
+  }
+}
